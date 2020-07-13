@@ -3,14 +3,20 @@ node {
 		echo "hello"
 }
 	stage("Stage2"){
-		echo "hello"
-}
+		timestamps {
+            echo "hello"
+        }
+    }
 	stage("Stage3"){
-		echo "hello"
-}
+		timestamps {
+            echo "hello"
+        }
+    }
 	stage("Stage4"){
-		echo "hello"
-}
+		timestamps {
+            echo "hello"
+        }
+    }
 	stage("Timestamp"){
 		timestamps {
 			echo "hello"
