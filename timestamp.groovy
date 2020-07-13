@@ -1,7 +1,9 @@
 node {
 	stage("Stage1"){
-		echo "hello"
-}
+		timestamps {
+            echo "hello"
+        }
+    }
 	stage("Stage2"){
 		timestamps {
             echo "hello"
