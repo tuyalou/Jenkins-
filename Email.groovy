@@ -12,6 +12,6 @@ node {
                 echo "hello"
 }
         stage("Send Email to Support"){
-                mail bcc: '', body: 'Running', cc: 'support@company.com', from: '', replyTo: '', subject: 'Test', to: 'tuubayalcin@gmail.com'
+                mail bcc: '', body: 'The job has been completed.', cc: 'support@gmail.com', from: '', replyTo: '', subject: 'Pipeline', to: 'tuubayalcin@gmail.com'
         }
 }
