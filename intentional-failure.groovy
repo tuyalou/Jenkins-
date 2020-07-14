@@ -9,9 +9,9 @@ node {
         echo "hello" 
     }
     stage("Intentionally Failed"){
-        error 'failed'
+        unstable 'failed'
     } 
-    stage("Stage5"){
+    stage("Timestamp"){
         echo "hello" 
     } 
 } 
